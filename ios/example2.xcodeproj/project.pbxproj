@@ -42,6 +42,9 @@
 		453F9D403340489BA88C2517 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1EDF64FBB8E84AA894240FA4 /* AppCenter-Config.plist */; };
 		A8B40A3BCA6648AF96F71B83 /* libAppCenterReactNativeAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D81B22989DC492F9ECCE7F5 /* libAppCenterReactNativeAnalytics.a */; };
 		D174AA36D3134631A1809D5A /* libAppCenterReactNativeCrashes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0915A52E05514A46BDF7E44B /* libAppCenterReactNativeCrashes.a */; };
+		D4CA9B8A736E49F9BE320DE2 /* libRNAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8A6619A72945FF8AA17E45 /* libRNAnalytics.a */; };
+		93706F8408E24148AAEA062D /* MobileCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E9418469F8F438EB2B1E4C2 /* MobileCenter-Config.plist */; };
+		4866A9ABD2344F36A1317DC0 /* libRNCrashes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9260CB173BCA458AA4098868 /* libRNCrashes.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -301,6 +304,11 @@
 		7D81B22989DC492F9ECCE7F5 /* libAppCenterReactNativeAnalytics.a */ = {isa = PBXFileReference; name = "libAppCenterReactNativeAnalytics.a"; path = "libAppCenterReactNativeAnalytics.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 		734E5392844248C387917248 /* AppCenterReactNativeCrashes.xcodeproj */ = {isa = PBXFileReference; name = "AppCenterReactNativeCrashes.xcodeproj"; path = "../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		0915A52E05514A46BDF7E44B /* libAppCenterReactNativeCrashes.a */ = {isa = PBXFileReference; name = "libAppCenterReactNativeCrashes.a"; path = "libAppCenterReactNativeCrashes.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		BD7ECCAEDC8E4E53B3B8F1F2 /* RNAnalytics.xcodeproj */ = {isa = PBXFileReference; name = "RNAnalytics.xcodeproj"; path = "../node_modules/mobile-center-analytics/ios/RNAnalytics.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		2C8A6619A72945FF8AA17E45 /* libRNAnalytics.a */ = {isa = PBXFileReference; name = "libRNAnalytics.a"; path = "libRNAnalytics.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		1E9418469F8F438EB2B1E4C2 /* MobileCenter-Config.plist */ = {isa = PBXFileReference; name = "MobileCenter-Config.plist"; path = "example2/MobileCenter-Config.plist"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.plist.xml; explicitFileType = undefined; includeInIndex = 0; };
+		7CF1D97BC6BC4E5AB18ABCB8 /* RNCrashes.xcodeproj */ = {isa = PBXFileReference; name = "RNCrashes.xcodeproj"; path = "../node_modules/mobile-center-crashes/ios/RNCrashes.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		9260CB173BCA458AA4098868 /* libRNCrashes.a */ = {isa = PBXFileReference; name = "libRNCrashes.a"; path = "libRNCrashes.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -334,6 +342,8 @@
 				6B10383C365F457BB2E5491C /* libAppCenterReactNative.a in Frameworks */,
 				A8B40A3BCA6648AF96F71B83 /* libAppCenterReactNativeAnalytics.a in Frameworks */,
 				D174AA36D3134631A1809D5A /* libAppCenterReactNativeCrashes.a in Frameworks */,
+				D4CA9B8A736E49F9BE320DE2 /* libRNAnalytics.a in Frameworks */,
+				4866A9ABD2344F36A1317DC0 /* libRNCrashes.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +526,8 @@
 				7ECA880B63DB4C0AA4690109 /* AppCenterReactNative.xcodeproj */,
 				1D1CE66E99A54593A9480D71 /* AppCenterReactNativeAnalytics.xcodeproj */,
 				734E5392844248C387917248 /* AppCenterReactNativeCrashes.xcodeproj */,
+				BD7ECCAEDC8E4E53B3B8F1F2 /* RNAnalytics.xcodeproj */,
+				7CF1D97BC6BC4E5AB18ABCB8 /* RNCrashes.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -538,6 +550,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				1EDF64FBB8E84AA894240FA4 /* AppCenter-Config.plist */,
+				1E9418469F8F438EB2B1E4C2 /* MobileCenter-Config.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -955,6 +968,7 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				453F9D403340489BA88C2517 /* AppCenter-Config.plist in Resources */,
+				93706F8408E24148AAEA062D /* MobileCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1092,6 +1106,8 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1099,6 +1115,8 @@
 					"$(SRCROOT)\..\node_modules\appcenter\ios\AppCenterReactNative",
 					"$(SRCROOT)\..\node_modules\appcenter-analytics\ios\AppCenterReactNativeAnalytics",
 					"$(SRCROOT)\..\node_modules\appcenter-crashes\ios\AppCenterReactNativeCrashes",
+					"$(SRCROOT)\..\node_modules\mobile-center-analytics\ios\RNAnalytics",
+					"$(SRCROOT)\..\node_modules\mobile-center-crashes\ios\RNCrashes",
 				);
 			};
 			name = Debug;
@@ -1123,6 +1141,8 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1130,6 +1150,8 @@
 					"$(SRCROOT)\..\node_modules\appcenter\ios\AppCenterReactNative",
 					"$(SRCROOT)\..\node_modules\appcenter-analytics\ios\AppCenterReactNativeAnalytics",
 					"$(SRCROOT)\..\node_modules\appcenter-crashes\ios\AppCenterReactNativeCrashes",
+					"$(SRCROOT)\..\node_modules\mobile-center-analytics\ios\RNAnalytics",
+					"$(SRCROOT)\..\node_modules\mobile-center-crashes\ios\RNCrashes",
 				);
 			};
 			name = Release;
@@ -1155,6 +1177,8 @@
 					"$(SRCROOT)\..\node_modules\appcenter\ios\AppCenterReactNative",
 					"$(SRCROOT)\..\node_modules\appcenter-analytics\ios\AppCenterReactNativeAnalytics",
 					"$(SRCROOT)\..\node_modules\appcenter-crashes\ios\AppCenterReactNativeCrashes",
+					"$(SRCROOT)\..\node_modules\mobile-center-analytics\ios\RNAnalytics",
+					"$(SRCROOT)\..\node_modules\mobile-center-crashes\ios\RNCrashes",
 				);
 			};
 			name = Debug;
@@ -1179,6 +1203,8 @@
 					"$(SRCROOT)\..\node_modules\appcenter\ios\AppCenterReactNative",
 					"$(SRCROOT)\..\node_modules\appcenter-analytics\ios\AppCenterReactNativeAnalytics",
 					"$(SRCROOT)\..\node_modules\appcenter-crashes\ios\AppCenterReactNativeCrashes",
+					"$(SRCROOT)\..\node_modules\mobile-center-analytics\ios\RNAnalytics",
+					"$(SRCROOT)\..\node_modules\mobile-center-crashes\ios\RNCrashes",
 				);
 			};
 			name = Release;
@@ -1212,6 +1238,8 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1219,6 +1247,8 @@
 					"$(SRCROOT)\..\node_modules\appcenter\ios\AppCenterReactNative",
 					"$(SRCROOT)\..\node_modules\appcenter-analytics\ios\AppCenterReactNativeAnalytics",
 					"$(SRCROOT)\..\node_modules\appcenter-crashes\ios\AppCenterReactNativeCrashes",
+					"$(SRCROOT)\..\node_modules\mobile-center-analytics\ios\RNAnalytics",
+					"$(SRCROOT)\..\node_modules\mobile-center-crashes\ios\RNCrashes",
 				);
 			};
 			name = Debug;
@@ -1252,6 +1282,8 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1259,6 +1291,8 @@
 					"$(SRCROOT)\..\node_modules\appcenter\ios\AppCenterReactNative",
 					"$(SRCROOT)\..\node_modules\appcenter-analytics\ios\AppCenterReactNativeAnalytics",
 					"$(SRCROOT)\..\node_modules\appcenter-crashes\ios\AppCenterReactNativeCrashes",
+					"$(SRCROOT)\..\node_modules\mobile-center-analytics\ios\RNAnalytics",
+					"$(SRCROOT)\..\node_modules\mobile-center-crashes\ios\RNCrashes",
 				);
 			};
 			name = Release;
@@ -1287,6 +1321,8 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 			};
 			name = Debug;
@@ -1311,6 +1347,8 @@
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",

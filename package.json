@@ -11,6 +11,8 @@
     "appcenter-analytics": "^1.1.0",
     "appcenter-crashes": "^1.1.0",
     "install": "^0.10.4",
+    "mobile-center-analytics": "^0.11.2",
+    "mobile-center-crashes": "^0.11.2",
     "react": "16.2.0",
     "react-native": "0.52.1",
     "react-native-code-push": "^5.2.1"
